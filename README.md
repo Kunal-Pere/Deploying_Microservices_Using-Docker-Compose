@@ -83,6 +83,15 @@ java-service/Dockerfile
 
    docker-compose up --scale web=3 --build
 
+
+### Access the Services:
+
+    Python service: Open a browser and go to http://localhost:5000/greet to see the greeting message from the Python service.
+    
+    Java service: Open a browser and go to http://localhost:8080/greet to see the greeting message from the Java service.
+
+   
+
 ### Conclusion:
      In this Project, we created a simple microservices application with one service in Python and another in Java. We used Docker Compose to manage and deploy both services. This setup 
      demonstrates how you can use Docker Compose to orchestrate multi-container applications, making it easier to develop, test, and deploy microservices.   
