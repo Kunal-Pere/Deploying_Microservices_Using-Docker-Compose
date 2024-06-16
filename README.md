@@ -14,6 +14,7 @@ Both services will be containerized using Docker and managed using Docker Compos
 Directory Structure
 
 microservices-app/
+
 ├── python-service/
 │   ├── app.py
 │   ├── Dockerfile
