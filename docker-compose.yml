@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  python-service:
+    build: ./python-service
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+
+  java-service:
+    build: ./java-service
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
