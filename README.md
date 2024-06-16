@@ -8,3 +8,19 @@ The application will consist of two microservices:
 Python Microservice: A simple Flask application that provides an API endpoint to return a greeting message.
 
 Java Microservice: A Spring Boot application that provides an API endpoint to return a different greeting message.
+
+Both services will be containerized using Docker and managed using Docker Compose.
+
+Directory Structure
+
+microservices-app/
+├── python-service/
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+├── java-service/
+│   ├── src/main/java/com/example/demo/DemoApplication.java
+│   ├── src/main/resources/application.properties
+│   ├── Dockerfile
+│   ├── pom.xml
+├── docker-compose.yml
