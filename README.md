@@ -6,4 +6,5 @@
 The application will consist of two microservices:
 
 Python Microservice: A simple Flask application that provides an API endpoint to return a greeting message.
+
 Java Microservice: A Spring Boot application that provides an API endpoint to return a different greeting message.
